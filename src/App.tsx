@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import { Action, APIClient, Asset, Name, Struct } from '@greymass/eosio';
 
-const jungle = new APIClient({url: 'https:jungle.blockmatic.io'})
+const jungle = new APIClient({url: 'https://jungle.blockmatic.io'})
 function App() {
 
   const deposit = async () => {
